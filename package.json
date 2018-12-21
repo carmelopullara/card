@@ -1,0 +1,27 @@
+{
+  "name": "carmelo",
+  "version": "1.0.0",
+  "description": "A personal card for Carmelo Pullara (@carmelopullara)",
+  "bin": {
+    "carmelo": "./bin/card.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carmelopullara/card.git"
+  },
+  "author": "Carmelo Pullara <carmelo@pullara.me> (https://pullara.me)",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
